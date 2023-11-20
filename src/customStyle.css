@@ -1,0 +1,39 @@
+.custom-button {
+    background-color: #8B5CF6; 
+    height: 28px;
+
+    color: #ffffff; 
+    font-size: 0.75rem; 
+    padding: 0.25rem 1rem; 
+    border-radius: 50px; 
+    display: inline-block; 
+    transition: width 0.3s ease; 
+  }
+
+.custom-button:hover {
+    width: 320px; 
+    height: 28px;
+  }
+
+
+
+  .green-cursor {
+    cursor: url('/src/assests/cursor.png') , auto;
+  }
+
+  .hover-move-left {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .hover-move-left:hover {
+    transform: translateX(-5px); /* Adjust the value as needed */
+  }
+  
+  .hover-move-right {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .hover-move-right:hover {
+    transform: translateX(5px); /* Adjust the value as needed */
+  }
+  
